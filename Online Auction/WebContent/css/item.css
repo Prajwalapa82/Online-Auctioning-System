@@ -1,0 +1,36 @@
+@charset "ISO-8859-1";
+*{
+	margin-top: 0px;
+}
+h1{
+	color: red;
+}
+input[type=file],select{
+color: aqua;
+}
+input[type=text], select {
+  padding: 12px 120px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=submit], select {
+  padding: 12px 30px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+label{
+	color: purple;
+	font-size: x-large;
+	margin-left: 0px;
+	left: 20px;
+}
+.table{
+	border: solid;
+	padding: 2px 2px;
+}

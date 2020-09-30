@@ -1,0 +1,104 @@
+@charset "ISO-8859-1";
+@import "compass";
+@import url(https://fonts.googleapis.com/css?family=Dancing+Script|Roboto);
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: century Gothic;
+}
+body{
+	background-color: rgba(0.1,0.1,0.1,0.1);
+	
+}
+ul{
+	float:left;
+	list-style-type: none;
+	margin-top: 20px;
+	list-style: none;
+}
+ul li 
+{
+ display: inline-block;
+ width:100px;
+ height: auto;
+}
+ul li a
+{
+	text-decoration: none;
+	color: white;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	transition:0.6s ease;`
+}
+ul li a:hover
+{
+	background-color:white;
+	color: black;
+}
+
+.textbox1 input[type=text], select {
+  padding: 12px 20px;
+  margin: 8px ;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.textbox2 input[type=password], select {
+  padding: 12px 20px;
+  margin: 8px ;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.btn input[type=submit], select {
+  color:white;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+   background-color: mediumseagreen;
+}
+ input[type=submit]:hover{
+  background-color: blue;
+ } 
+.head{
+	background-color: rgba(0,0,0,0.4);
+}
+.tittle h1{
+	text-align: center;
+	color:aqua;
+	font-size: 50px;
+}
+.tittle h2{
+	text-align: center;
+	color: red;
+	font-size: 25px;
+	font-family: cursive;
+}
+.image img{
+	width:25%;
+	height:25%;
+	margin-left:35%;
+	background-size: cover;
+	align-content: center;
+	
+	}
+.table p{
+	color: white;
+}
+center{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../images/aa.jpg);
+	width:50%;
+	height:50%;
+	margin-left:25%;
+	background-size: cover;
+	align-content: center;
+	position:fixed;
+}
+.table{
+	margin-top: 15%;
+}
